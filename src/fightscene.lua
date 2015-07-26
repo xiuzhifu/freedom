@@ -6,6 +6,8 @@ local game_utils = require "game_utils"
 local actor = require "actor"
 local damageflow = require "damageflow"
 local fightscene_conf = require "fightscene_conf"
+require "skynet.manager"	-- import skynet.register
+
 
 local fightsceneid = ...
 local  CMD = {}

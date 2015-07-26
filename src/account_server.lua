@@ -3,6 +3,8 @@ local netpack = require "netpack"
 local socket = require "socket"
 local redis = require "redis"
 local sproto = require  "sproto"
+require "skynet.manager"	-- import skynet.register
+
 
 local  REQUEST = {}
 local host

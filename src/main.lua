@@ -1,4 +1,5 @@
 local skynet = require "skynet"
+require "skynet.manager"	-- import skynet.register
 
 local max_client = 64
 

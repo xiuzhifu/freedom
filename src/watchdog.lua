@@ -3,6 +3,8 @@
 local skynet = require "skynet"
 local netpack = require "netpack"
 local proto = require "proto"
+require "skynet.manager"	-- import skynet.register
+
 
 local CMD = {}
 local SOCKET = {}

@@ -2,6 +2,7 @@ local skynet = require "skynet"
 local db_conf = require "db_conf"
 local redis = require "redis"
 local skynet = require "skynet"
+require "skynet.manager"	-- import skynet.register
 
 local dbcount = 0
 local dbpool = {}
